@@ -8,7 +8,7 @@ def multiply(num1, num2):
     return num1 * num2
 
 def divide(num1, num2):
-    return num1 // num2  # Use / for float division if you want
+    return num1 / num2  # Use / for float division if you want
 
 while True:
     num1 = input("Enter a number: ")
@@ -39,7 +39,7 @@ while True:
         ans = subtract(num1, num2)
     elif op == "*":
         ans = multiply(num1, num2)
-    elif op == "/" or op == "//":
+    elif op == "/" or op == "/":
         ans = divide(num1, num2)
     else:
         print("Invalid Operation")
